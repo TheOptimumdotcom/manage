@@ -1,0 +1,217 @@
+
+body{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(./images/bg-tablet-pattern.svg);
+    background-position: 650px -90px;
+    background-repeat: no-repeat;
+    background-size: 650px;
+}
+
+.btn{
+    border-radius: 30px;
+    border: rgb(240, 94, 41);
+    background-color: rgb(240, 94, 41);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.active{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+h1{
+    font-size: 64px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.intro{
+    margin-left: 30px;
+}
+.hero{
+    margin-bottom: 50px;
+}
+.hero-p{
+    margin-right: 150px;
+}
+h2{
+    font-weight: 600;
+}
+.number{
+    border-radius: 100px;
+    border: rgb(240, 94, 41);
+    background-color: rgb(240, 94, 41);
+    margin-right: 527px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 12px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+h3{
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 60px;
+    margin-top: -25px;
+}
+.one{
+    margin-left: 60px;
+}
+.said{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.ayo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.owoeye{
+    text-align: center;
+    font-size: 16px;
+}
+.ayobami{
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+/* .ayo{
+    margin-left: 90px;
+} */
+
+
+.dot{
+    margin-top: 70px;
+    text-align: center;
+}
+.dot1{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(50, 50, 188);
+    border-radius: 50%;
+    display: inline-block;
+  }
+.dot2{
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+ 
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .simplify{
+    margin-top: 50px;
+    background-color: rgb(240, 94, 41);
+    color: white;
+    margin-left: -50px;
+    margin-right: -50px;
+    padding-bottom: 10px;
+    background-image: url(/images/bg-simplify-section-desktop.svg);
+    background-position: 350px;
+    background-repeat: no-repeat;
+    background-size: 1000px;
+
+  }
+  .team{
+    margin-top: 30px;
+    margin-right: 200px;
+    font-size: 28px;
+  }
+  .btn2{
+    border-radius: 30px;
+    border: white;
+    background-color: white;
+    color: rgb(240, 94, 41);
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 400px;
+    margin-top: 50px;
+    padding: 5px 10px 5px 10px;
+}
+
+.footer{
+    margin-left: -50px;
+    margin-right: -50px;
+    background-color: rgb(31, 30, 30);
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 70px;
+    color: white;
+}
+.list{
+    list-style-type: none;
+    font-size: 12px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.btn1{
+    border-radius: 30px;
+    border: rgb(240, 94, 41);
+    background-color: rgb(240, 94, 41);
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px 10px 5px 10px;
+}
+.form-control{
+    border-radius: 50px;
+    font-size: 12px;
+}
+.footer-img{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.custom{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.custom li {
+    counter-increment: step-counter;
+    margin-bottom: 5px;
+}
+
+.custom li::before{
+    content: counter(step-counter);
+  margin-right: 0px;
+  font-size: 80%;
+  background-color: rgb(240, 94, 41);
+  color: white;
+  padding: 3px 8px;
+  border-radius: 11px;
+}
+.btn:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(240, 94, 41);
+  }
+.btn2:hover {
+    background-color: rgb(240, 94, 41);
+    color: white;
+    border: 2px solid white;
+  }
+  .btn1:hover {
+    background-color: rgb(31, 30, 30);
+    color: white;
+    border: 2px solid white;
+  }
